@@ -1,4 +1,3 @@
-console.log("loaded");
 MAX_DEPTH = 32;
 FPS = 32;
 MAX_SIZE = 50;
