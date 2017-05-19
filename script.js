@@ -3,7 +3,11 @@ FPS = 32;
 MAX_SIZE = 50;
 TOTAL_AMOUNT = 32;
 GENERATOR_SIZE = 50;
-
+$(function () {
+  console.log($("#starfield"));
+  $("#starfield").append("<div class='text'>text</div>");
+})
+/*
 var canvas, ctx;
 var stars = new Array(TOTAL_AMOUNT);
 var mouseX, mouseY;
@@ -17,7 +21,7 @@ window.onload = function() {
    }
 }
 
-/* Returns a random number in the range [minVal,maxVal] */
+// Returns a random number in the range [minVal,maxVal]
 function randomRange(minVal,maxVal) {
 //console.log(Math.floor(Math.random() * (maxVal - minVal - 1)) + minVal);
   return Math.floor(Math.random() * (maxVal - minVal - 1)) + minVal;
@@ -82,3 +86,4 @@ mouseY = mousePos.y;
     }
   }
 }
+*/
